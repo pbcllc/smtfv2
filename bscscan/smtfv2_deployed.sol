@@ -506,6 +506,6 @@ pragma solidity ^0.8.9;
 
 contract SMTF is ERC20 {
     constructor() ERC20("SmartFi", "SMTF") {
-        _mint(msg.sender, 1000000000 * 10 ** decimals());
+        _mint(msg.sender, 1_000_000_000 * 10 ** decimals());
     }
 }
